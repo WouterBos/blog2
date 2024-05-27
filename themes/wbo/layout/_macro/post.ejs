@@ -24,11 +24,6 @@
         <% }); %>
       </span>
       <% } %>
-      <% if (theme.leancloud && theme.leancloud.app_id && theme.leancloud.app_key) { %>
-      <span class="post-visits" data-url="<%= url_for(post.path) %>" data-title="<%= post.title %>">
-        <%= __('posts.visits') %> 0
-      </span>
-      <% } %>
     </div>
   </header>
 
@@ -55,11 +50,6 @@
     <%- post.content %>
     <% } %>
   </div>
-
-  <% if (!is_home()) { %>
-  <%- partial("../_partial/_post/copyright.ejs") %>
-  <%- partial("../_partial/_post/reward.ejs") %>
-  <% } %>
 
   <% if (!is_home()) { %>
   <footer class="post-footer">
