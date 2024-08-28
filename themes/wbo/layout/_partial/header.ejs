@@ -1,9 +1,9 @@
-<div class="logo-wrapper">  
-  <a href="<%- url_for('.') %>" class="logo"><%- config.title %></a>  
+<h1 class="logo-wrapper">  
+  <a href="<%- url_for('.') %>"><%- config.title %></a>
 </div>  
   
-<nav class="site-navbar">  
-  <% if (theme.menu) { %>  
+<% if (theme.menu) { %>  
+  <nav class="site-navbar">  
     <ul id="menu" class="menu">  
       <% for (var name in theme.menu) { %>  
         <li class="menu-item">  
@@ -18,5 +18,5 @@
         </li>  
       <% } %>  
     </ul>  
+  </nav>  
   <% } %>  
-</nav>  
