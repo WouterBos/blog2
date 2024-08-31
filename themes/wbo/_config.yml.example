@@ -32,7 +32,7 @@ color: default
 # default page mode: default | archives
 mode: default
 
-toc: true
+toc: false
 
 # jQuery fancybox
 fancybox: true

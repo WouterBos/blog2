@@ -1,3 +1,7 @@
+.posts {
+  margin: var(--page-gap) 0;
+}
+
 .post {
   scroll-snap-type: y proximity;
   display: grid;
@@ -5,7 +9,7 @@
   gap: 3rem;
 
   .post + & {
-    margin-top: 5rem;
+    margin-top: var(--post-gap);
   }
 
   header {
@@ -27,18 +31,23 @@
     grid-column-end: 2;
     columns: 16rem;
     gap: 3rem;
-    column-rule: 1px solid hsla(0, 0%, 0%, .05);
-    max-height: 80vh;
+    column-rule: 1px solid hsla(0, 0%, 0%, .2);
+    max-height: calc(85vh - var(--post-gap) - 3rem);
 
-    h2 {
-      margin: 2rem 0 .5rem 0;
+    h2, h3 {
+      margin-top: 1em;
+      margin-bottom: .5rem;
     }
 
-    p {
-      margin: 0;
+    & > *:first-child {
+      margin-top: 0;
     }
-    p + p {
-      margin-top: 1.5rem;
+
+    :is(p, ul, ol) {
+      margin: 1.5rem 0;
+    }
+    :is(h2, h3) + :is(p, ul, ol) {
+      margin-top: .5rem;
     }
 
     figure {
@@ -54,8 +63,11 @@
 
     img {
       object-fit: scale-down;
+      border-radius: 10px;
       width: 100%;
       height: 100%;
+      max-height: clamp(40vh,70vh,40rem);
+      background-color: #eee;
     }
   }
 
