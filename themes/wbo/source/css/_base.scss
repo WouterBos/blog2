@@ -7,11 +7,15 @@
 
 
 html {
-  font-family: GoudyBookletter, serif;
+  font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
   font-size: clamp(1.3rem, 1.5vmax, 1.7rem);
+  color: #333;
+  scroll-snap-type: y mandatory;
 }
 
 h1, h2, h3 {
+  font-family: GoudyBookletter, serif;
+  color: #444;
   font-weight: normal;
 }
 

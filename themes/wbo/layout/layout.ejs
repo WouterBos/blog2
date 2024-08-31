@@ -26,24 +26,25 @@
   }
   %>
   <%- partial("_partial/title.ejs", {title: title}) %>
-
 </head>
 
 <body>
-  <div class="container">
-    <header id="header" class="header">
-      <%- partial('_partial/header.ejs') %>
-    </header>
-    <main id="main" class="main">
-      <div class="content-wrapper">
-        <div id="content" class="content">
-          <%- body %>
+  <div class="page">
+    <div class="container">
+      <header id="header" class="header">
+        <%- partial('_partial/header.ejs') %>
+      </header>
+      <main id="main" class="main">
+        <div class="content-wrapper">
+          <div id="content" class="content">
+            <%- body %>
+          </div>
         </div>
-      </div>
-    </main>
-    <footer id="footer" class="footer">
-      <%- partial('_partial/footer.ejs') %>
-    </footer>
+      </main>
+      <footer id="footer" class="footer">
+        <%- partial('_partial/footer.ejs') %>
+      </footer>
+    </div>
   </div>
 </body>
 
