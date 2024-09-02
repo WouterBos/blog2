@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c583e9c0cf7cb81f",
+            "id": "2d9ee68c1aa9b2a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "meaning.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f32021b5247c7408",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "make time.md",
+                "file": "_posts/meaning.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "make time.md",
+                "file": "_posts/meaning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "make time.md",
+                "file": "_posts/meaning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "make time.md"
+                "file": "_posts/meaning.md"
               }
             }
           }
@@ -159,8 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f32021b5247c7408",
+  "active": "2d9ee68c1aa9b2a9",
   "lastOpenFiles": [
+    "_drafts/portraits.md",
+    "_posts/meaning.md",
+    "_drafts/portraits/portrait.avif",
+    "_drafts/portraits",
+    "make time.md",
+    "portraits.md",
     "meaning.md",
     "meaning copy 11.md",
     "meaning copy 10.md",
@@ -182,10 +175,6 @@
     "foo copy 6.md",
     "foo copy 5.md",
     "foo copy 4.md",
-    "foo copy 3.md",
-    "foo copy 2.md",
-    "foo copy.md",
-    "foo.md",
-    "foo'.md"
+    "foo copy 3.md"
   ]
 }
