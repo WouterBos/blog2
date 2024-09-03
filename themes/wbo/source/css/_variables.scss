@@ -1,4 +1,11 @@
 :root {
     --post-gap: 4.5rem;
     --page-gap: 3rem;
+
+    --border-radius: 10px;
+
+    --color-accent-hue: 60.92deg;
+    --color-accent-saturation: 29.97%;
+    --color-accent-lightness: 47.7%;
+    --color-accent: hsl(var(--color-accent-hue), var(--color-accent-saturation), var(--color-accent-lightness));
 }

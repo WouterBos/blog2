@@ -5,12 +5,16 @@
   font-style: normal;
 }
 
-
 html {
+  cursor: default;
   font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
   font-size: clamp(1.25rem, 1.4vmax, 1.55rem);
   color: #333;
   scroll-snap-type: y mandatory;
+}
+
+body {
+  margin: 0;
 }
 
 h1, h2, h3 {

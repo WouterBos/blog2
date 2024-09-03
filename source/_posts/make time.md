@@ -1,6 +1,7 @@
 ---
 title:  "Making time for photography"
 date:   2024/09/01
+id:     make-time
 ---
 
 It's so trite: when you ask people how they're doing, often, they are busy and they can't find the time to do whatever they like to do. And yet, when someone asks me that question, it's difficult to not fall into the same gap. I need to find a better answer for this question. But even so the issue is very common and I do struggle finding time for photography. There are two things that keep me from going out and taking pictures: I either don't have the time for it or I'm not motivated. Let's look at those issues a bit closer and see how I try to cope with it.
@@ -25,7 +26,7 @@ Often I'm out, I'm on a mission: supermarket, a meeting, commute, whatever. My m
 
 ### What might work
 
-
+- **Plan** - Planning works for me as it prepares my mind for whatever I planned to do and can make preparations if needed. If I don't plan, time will inevitably will be filled up with other stuff to do. This tactic only works there's space in my agenda. When I'm too busy, I tend to trade in activities for some head space.
 
 ## Motivation
 

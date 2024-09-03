@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/meaning.md",
+                "file": "_drafts/portraits.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/meaning.md",
+                "file": "_drafts/portraits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/meaning.md",
+                "file": "_drafts/portraits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/meaning.md"
+                "file": "_drafts/portraits.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "2d9ee68c1aa9b2a9",
   "lastOpenFiles": [
+    "_posts/make time.md",
     "_drafts/portraits.md",
     "_posts/meaning.md",
     "_drafts/portraits/portrait.avif",
@@ -174,7 +175,6 @@
     "foo copy 7.md",
     "foo copy 6.md",
     "foo copy 5.md",
-    "foo copy 4.md",
-    "foo copy 3.md"
+    "foo copy 4.md"
   ]
 }

@@ -1,22 +1,19 @@
-<h1 class="logo-wrapper">  
-  <a href="<%- url_for('.') %>"><%- config.title %></a>
-</div>  
-  
-<% if (theme.menu) { %>  
-  <nav class="site-navbar">  
-    <ul id="menu" class="menu">  
-      <% for (var name in theme.menu) { %>  
-        <li class="menu-item">  
-          <a class="menu-item-link" href="<%- url_for(theme.menu[name]) %>">  
-            <% var itemName = __('menu.' + name.toLowerCase()); %>  
-            <% if (itemName.startsWith('menu')) { %>  
-              <%- name %>  
-            <% } else { %>  
-              <%- itemName %>  
-            <% } %>  
-          </a>  
-        </li>  
-      <% } %>  
-    </ul>  
-  </nav>  
-  <% } %>  
+<div>
+  <h1 class="logo-wrapper">  
+    <a href="<%- url_for('.') %>"><%- config.title %></a>
+  </h1>
+
+
+
+  <% if (page.posts) { %>
+    <nav>
+      <% page.posts.forEach(function(post, i) { %>
+        <div>
+          <a href="<%= path %>#post_<%= post.id %>" class="archive-post-link">
+            <%= post.title %>
+          </a>
+        </div>
+      <% }) %>
+    </nav>
+  <% } %>
+</div>

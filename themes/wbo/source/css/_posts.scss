@@ -7,21 +7,57 @@
   display: grid;
   grid-template-columns: minmax(15rem, 25rem) minmax(16rem, 20rem);
   column-gap: var(--post-gap);
-  padding-top: calc(var(--post-gap) / 3);
-  padding-bottom: calc(var(--post-gap) / 3);
-  scroll-snap-align: start;
+  margin-top: calc(var(--post-gap) / 2);
+  margin-bottom: calc(var(--post-gap) / 2);
+  scroll-snap-align: center;
 
-  header {
+  &:first-child {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  &:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .post-header {
+    display: flex;
+    flex-direction: column;
     grid-column-start: 1;
     grid-column-end: 1;
+    border-right: 10px solid var(--color-accent);
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    padding: 2rem;
     text-align: right;
+    background-color: hsla(var(--color-accent-hue), var(--color-accent-saturation), var(--color-accent-lightness), 0.1);
+
+    .post-header-top {
+      flex-grow: 1;
+    }
 
     .post-title {
-      margin: 0 0 1rem 0;
+      margin: 0;
+      color: hsl(var(--color-accent-hue), var(--color-accent-saturation), 25%);
+      line-height: 1;
 
       a:hover {
         text-decoration: none;
       }    
+    }
+
+    .post-meta {
+      font-size: 0.8em;
+      color: hsla(var(--color-accent-hue), var(--color-accent-saturation), 20%, 0.7);
+    }
+
+    .post-hint {
+      color: hsla(var(--color-accent-hue), var(--color-accent-saturation), 20%, 0.5);
+      font-size: 0.7rem;
+
+      svg {
+        height: 1rem;
+        fill: hsla(var(--color-accent-hue), var(--color-accent-saturation), 20%, 0.5);
+      }
     }
   }
 
@@ -31,7 +67,11 @@
     columns: 16rem;
     gap: calc(var(--post-gap) / 1.5);
     column-rule: 1px dashed hsla(0, 0%, 0%, .15);
-    max-height: calc(95vh - var(--post-gap));
+    max-height: calc(100vh - calc(var(--post-gap) / 2));
+
+    p:first-child {
+      font-size: larger;
+    }
 
     h2, h3 {
       margin-top: 1em;
@@ -53,7 +93,7 @@
       display: flex;
       flex-direction: column;
       margin: 0;
-      border-radius: 10px;
+      border-radius: var(--border-radius);
       overflow: hidden;
       background-color: #eee;
       box-shadow: 0 3px 0px 0px #ddd;

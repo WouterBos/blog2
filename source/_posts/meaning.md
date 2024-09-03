@@ -1,6 +1,7 @@
 ---
 title:  "A photo with depth"
 date:   2024/05/27
+id:     meaning
 ---
 
 Have you seen photos of amateur photographers? Most likely the level of quality differs enormously. Some appear to carry a deeper meaning. But others appear to be just a registration of what happened to be in front of the photographer. It's flat and lifeless, without any intent. It doesn't tell a story, nor does it trigger any emotion. You lose interest the moment you lay your eyes upon it.
