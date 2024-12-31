@@ -9,9 +9,13 @@ html {
   cursor: default;
   font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
   font-size: clamp(1.25rem, 1.4vmax, 1.55rem);
-  color: #333;
-  scroll-snap-type: y mandatory;
+  color: var(--color-text);
+
+  @media (min-width: $viewport-mobile) {
+    scroll-snap-type: y mandatory;
+  }
 }
+
 
 body {
   margin: 0;
@@ -19,7 +23,7 @@ body {
 
 h1, h2, h3 {
   font-family: GoudyBookletter, serif;
-  color: #444;
+  color: var(--color-header);
   font-weight: normal;
 }
 

@@ -1,0 +1,15 @@
+.post-nav {
+  display: inline-flex;
+  margin: 1rem;
+  gap: 2rem;
+
+  a {
+    color: hsl(var(--color-primary-hue), var(--color-accent-saturation), 35%);
+    text-decoration: none;
+    
+    &:hover {
+      color: var(--color-link);
+    }
+  }
+
+}

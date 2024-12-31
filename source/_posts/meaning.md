@@ -15,7 +15,7 @@ I often attend activities and festivities that attract crowds. The more people, 
 Taking pictures of random people can feel scary but it doesn't have to be. The most important thing is to not act sneaky. Yes, you need to be unnoticed or at least ignored to be able to make great candid photos but hiding the fact that you're taking pictures only makes you more suspicious. I always walk around with 1 to 3 camera's around my neck so my intentions are clear from the start. Also, in this media-intensive world, people are used that there's somebody taking photos of events. You don't want to know how often I've been asked which media outlet I represent. Try to stay under the radar, though. Otherwise people will become hyper-aware of your presence, ruining the spontaneous moment.
 
 <figure>
-    <img src="2024/05/27/meaning/interactions.avif" alt="Two women playing with paint" width="1000" height="667" loading="lazy">
+    {% asset_img interactions.avif 1000 667 Two women playing with paint %}
     <figcaption>Taking pictures while people are interacting</figcaption>
 </figure>
 
@@ -26,7 +26,7 @@ Contrast can be found in many things like colour, lightness and size. Contrasts 
 Although trickier to find, non-visual contrasts like juxtapositions between the subject and surroundings will introduce more meaning to a picture. For example: a pensive person at a crowded party or a thrown away house plant in an open field in the city. Be careful with such techniques though. You might imply something things that might not be true.
 
 <figure class="portrait">
-    <img src="2024/05/27/meaning/juxtaposition.avif" alt="A man and a woman talking" width="830" height="1000" loading="lazy">
+    {% asset_img juxtaposition.avif 830 1000 A man and a woman talking %}
     <figcaption>The height difference, together with the body language of both subjects might imply the man is mansplaining. But is it so?</figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ Lately I started to experiment with more extreme camera perspectives. It's a way
 This is an old favourite of mine. In regular photos the subject is in the middle of the photo and occupies a lot of space. It's very functional and works well with -for example- portraits. By introducing a lot of negative space, you create a different dynamic between the subject and its environment. A photo of a building but with a lot of sky in the picture, makes the building small, both literally and figuratively. This is the kind of thing that makes a photo more interesting.
 
 <figure class="portrait">
-    <img src="2024/05/27/meaning/negativespace.avif" alt="Landscape with a lot of sky" width="835" height="1080" loading="lazy">
+    {% asset_img negativespace.avif 835 1000 Landscape with a lot of sky %}
     <figcaption>Classic example of negative space.</figcaption>
 </figure>
 
@@ -55,4 +55,4 @@ There's a cool practice to hone your sense of composition that I've never done m
 
 ## Review later
 
-You know that feeling when you encounter an old, discarded photo you took and see it in a totally different light? I don't do this often, but while reviewing old photos, you can start to appreciate photos you didn't do before. Also this can definitely train the eye for composition. And of course, regularly looking at work of other photographers that you look up to will greatly improve your feeling for what is a good photo as well. ✸
+You know that feeling when you encounter an old, discarded photo you took and see it in a totally different light? I don't do this often, but while reviewing old photos, you can start to appreciate photos you didn't do before. Also this can definitely train the eye for composition. And of course, regularly looking at work of other photographers that you look up to will greatly improve your feeling for what is a good photo as well. ❦

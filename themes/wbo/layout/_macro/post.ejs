@@ -1,6 +1,6 @@
 <article class="post">
-  <a name="post_<%= post.id %>"></a>
   <header class="post-header">
+    <a name="post_<%= post.id %>"></a>
     <div class="post-header-top">
       <div class="post-meta">
         <% if (post.date) { %>
@@ -44,6 +44,17 @@
   </header>
 
   <div class="post-content">
+    <span class="post-time">
+      <%- full_date(post.date, 'YYYY-MM-DD') %>
+    </span>
+    <h1 class="post-title">
+      <% if (is_home()) { %>
+      <a class="post-link" href="<%- url_for(post.path) %>"><%= post.title %></a>
+      <% } else { %>
+      <%= post.title %>
+      <% } %>
+    </h1>
+
     <% if (is_home()) { %>
     <% var excerpt = ""; %>
     <% if (post.description) { %>

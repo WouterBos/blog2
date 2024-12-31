@@ -1,11 +1,31 @@
+$viewport-mobile: 1200px;
+
 :root {
-    --post-gap: 4.5rem;
+    --post-gap: clamp(3rem, 10vw, 8rem);
     --page-gap: 3rem;
 
     --border-radius: 10px;
 
-    --color-accent-hue: 60.92deg;
+    --color-text: #333;
+    --color-header: #555;
+    --color-link: #6969da;
+
+    --color-primary-hue: 60.92deg;
+
+    --color-head-saturation: 10%;
+    --color-head-lightness: 70%;
+    --color-head: hsl(var(--color-primary-hue), var(--color-head-saturation), var(--color-head-lightness));
+
+    --color-greyBg-saturation: 5%;
+    --color-greyBg-lightness: 95%;
+    --color-greyBg: hsl(var(--color-primary-hue), var(--color-greyBg-saturation), var(--color-greyBg-lightness));
+
+    --color-greyBgDark-saturation: 5%;
+    --color-greyBgDark-lightness: 85%;
+    --color-greyBgDark: hsl(var(--color-primary-hue), var(--color-greyBgDark-saturation), var(--color-greyBgDark-lightness));
+
     --color-accent-saturation: 29.97%;
     --color-accent-lightness: 47.7%;
-    --color-accent: hsl(var(--color-accent-hue), var(--color-accent-saturation), var(--color-accent-lightness));
+    --color-accent: hsl(var(--color-primary-hue), var(--color-accent-saturation), var(--color-accent-lightness));
 }
+
