@@ -4,13 +4,13 @@ date:   2024/05/27
 id:     meaning
 ---
 
-Have you seen photos of amateur photographers? Most likely the level of quality differs enormously. Some appear to carry a deeper meaning. But others appear to be just a registration of what happened to be in front of the photographer. It's flat and lifeless, without any intent. It doesn't tell a story, nor does it trigger any emotion. You lose interest the moment you lay your eyes upon it.
+Photos of amateur photographers can be fascinating. Some appear to convey a deeper meaning. But others are a flat and lifeless registration and you lose interest the moment you lay your eyes upon it.
 
-This fascinates me. Because although I instantly recognise such lifeless photos, it's hard to put in words why such photos don't trigger any emotion. So I instead I'll sum up some strategies that I use to prevent that my photos are lifeless and devoid of any meaning.
+This fascinates me. Because although I instantly recognise such lifeless photos, it's hard to put in words *why* such photos don't trigger any emotion in me. So I instead I'll sum up some strategies that can bring that deeper meaning in photos.
 
 ## Interactions
 
-I often attend activities and festivities that attract crowds. The more people, the better. Those events are for me the best environments to take pictures of people. It's something I really like to do. But how to make a photo that's more than just a registration? My strategy is to just walk around. And while doing so, I observe people and situations. I especially focus on people who are busy with themselves or interacting with others. Those people are often too busy to mind a photographer. And while doing the things they do, they will often show various expressions and poses. Each of those moments can feel special and makes you wanting to be part of that moment. That's what I'm looking for. Always take multiple photos while taking photos of interactions as such situations change every second. Hands are moving, expressions change constantly and you need to capture the best alignment of all elements in the scene.
+I often attend activities and festivities that attract crowds. The more people, the better. Those events are for me the best environments to take pictures of people. It's something I really like to do. But how to make a photo that's more than just a registration? My strategy is to just walk around. And while doing so, I observe people and situations. I especially focus on people who are busy with themselves or interacting with others. Those people are often too busy to mind a photographer. And while doing so, they'll express who they are and what they feel at that moment. Those moments can feel special and makes you want to be part of them. That's what I'm looking for. Always take multiple shots while taking photos of interactions as such situations change every second. Hands are moving, expressions change constantly and you need to capture the best alignment of all elements in the scene.
 
 Taking pictures of random people can feel scary but it doesn't have to be. The most important thing is to not act sneaky. Yes, you need to be unnoticed or at least ignored to be able to make great candid photos but hiding the fact that you're taking pictures only makes you more suspicious. I always walk around with 1 to 3 camera's around my neck so my intentions are clear from the start. Also, in this media-intensive world, people are used that there's somebody taking photos of events. You don't want to know how often I've been asked which media outlet I represent. Try to stay under the radar, though. Otherwise people will become hyper-aware of your presence, ruining the spontaneous moment.
 
@@ -21,9 +21,9 @@ Taking pictures of random people can feel scary but it doesn't have to be. The m
 
 ## Contrasts or juxtaposition
 
-Contrast can be found in many things like colour, lightness and size. Contrasts catalyse an already interesting scene. In street photography hard shadows or colour contrasts can instantly dramatise your photos. These contrasts are mostly pleasing the abstract loving part of your brain though. So although visual contrasts make a photo more pleasing, it does not necessarily add more meaning to it.
+Contrast can be found in many things like colour, lightness and size. Contrasts catalyse an already interesting scene. In street photography hard shadows or colour contrasts can instantly dramatise your photos. These contrasts are mostly pleasing to the abstract loving part of our brain though; they do not necessarily add more meaning to it.
 
-Although trickier to find, non-visual contrasts like juxtapositions between the subject and surroundings will introduce more meaning to a picture. For example: a pensive person at a crowded party or a thrown away house plant in an open field in the city. Be careful with such techniques though. You might imply something things that might not be true.
+Although trickier to find, non-visual contrasts like juxtapositions between the subject and surroundings will introduce more meaning to a picture. For example: a pensive person at a crowded party or a thrown away house plant in an open field in the city. Be careful with such techniques though. You might imply something things that might not be there.
 
 <figure class="portrait">
     {% asset_img juxtaposition.avif 830 1000 A man and a woman talking %}
@@ -32,7 +32,7 @@ Although trickier to find, non-visual contrasts like juxtapositions between the 
 
 ## Different perspectives
 
-Lately I started to experiment with more extreme camera perspectives. It's a way to prevent I always make the same photo over and over again.
+Lately I started to experiment with more extreme camera perspectives. It's a way to make sure my photos won't be the same.
 
 ## Negative space
 

@@ -33,28 +33,10 @@
       <%- partial("../_partial/_post/toc.ejs") %>
     </div>
 
-    <div class="post-header-bottom">
-      <div class="post-hint">
-        <svg version="1.1" x="0px" y="0px" viewBox="0 0 29.916 47" xml:space="preserve" width="29.916" height="47" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-          <path d="m 14.958,24 c -1.103,0 -2,-0.897 -2,-2 v -4 c 0,-1.103 0.897,-2 2,-2 1.103,0 2,0.897 2,2 v 4 c 0,1.103 -0.897,2 -2,2 z m 1,-12.939 v 3.081 c 1.721,0.447 3,2 3,3.858 v 4 c 0,1.858 -1.279,3.411 -3,3.858 V 28 H 29.916 C 29.499,18.927 23.497,11.659 15.958,11.061 Z m -2,14.797 c -1.721,-0.447 -3,-2 -3,-3.858 v -4 c 0,-1.858 1.279,-3.411 3,-3.858 V 11.061 C 6.419,11.659 0.417,18.926 0,28 H 13.958 Z M 7.251,6.707 c 0.391,0.391 1.023,0.391 1.414,0 0.391,-0.391 0.391,-1.023 0,-1.414 l -3,-3 C 5.274,1.902 4.642,1.902 4.251,2.293 3.86,2.684 3.86,3.316 4.251,3.707 Z M 14.958,47 c 8.003,0 14.523,-7.527 14.958,-17 H 0 c 0.435,9.473 6.955,17 14.958,17 z m 0,-41 c 0.553,0 1,-0.448 1,-1 V 1 c 0,-0.552 -0.447,-1 -1,-1 -0.553,0 -1,0.448 -1,1 v 4 c 0,0.552 0.447,1 1,1 z m 7.707,0.707 3,-3 c 0.391,-0.391 0.391,-1.023 0,-1.414 -0.391,-0.391 -1.023,-0.391 -1.414,0 l -3,3 c -0.391,0.391 -0.391,1.023 0,1.414 0.391,0.391 1.024,0.391 1.414,0 z" />
-        </svg>
-        <div>Hold Shift to scroll horizontally</div>
-      </div>
-    </div>
+    <div class="post-header-bottom"></div>
   </header>
 
   <div class="post-content">
-    <span class="post-time">
-      <%- full_date(post.date, 'YYYY-MM-DD') %>
-    </span>
-    <h1 class="post-title">
-      <% if (is_home()) { %>
-      <a class="post-link" href="<%- url_for(post.path) %>"><%= post.title %></a>
-      <% } else { %>
-      <%= post.title %>
-      <% } %>
-    </h1>
-
     <% if (is_home()) { %>
     <% var excerpt = ""; %>
     <% if (post.description) { %>
@@ -75,8 +57,9 @@
     <%- post.content %>
     <% } %>
   </div>
+</article>
 
-  <% if (!is_home()) { %>
+<% if (!is_home()) { %>
   <footer class="post-footer">
     <% if (post.tags && post.tags.length) { %>
     <div class="post-tags">
@@ -87,6 +70,4 @@
     <% } %>
     <%- partial("../_partial/pagination.ejs") %>
   </footer>
-  <% } %>
-
-</article>
+<% } %>

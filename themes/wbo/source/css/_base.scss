@@ -8,10 +8,10 @@
 html {
   cursor: default;
   font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
-  font-size: clamp(1.25rem, 1.4vmax, 1.55rem);
+  font-size: clamp(1rem, 1.4vmax, 1.4rem);
   color: var(--color-text);
 
-  @media (min-width: $viewport-mobile) {
+  @media (min-width: $viewport-DESKTOP) {
     scroll-snap-type: y mandatory;
   }
 }
@@ -28,7 +28,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 
   a {
     color: currentColor;
@@ -41,7 +41,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.9rem;
+  font-size: 1.8rem;
 }
 
 h3 {

@@ -1,7 +1,8 @@
-$viewport-mobile: 1200px;
+$viewport-MOBILE: 1100px;
+$viewport-DESKTOP: $viewport-MOBILE + 1px;
 
 :root {
-    --post-gap: clamp(3rem, 10vw, 8rem);
+    --post-gap: clamp(2rem, 10vmax, 5rem);
     --page-gap: 3rem;
 
     --border-radius: 10px;

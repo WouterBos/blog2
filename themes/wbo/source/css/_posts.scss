@@ -7,101 +7,84 @@
 
 .post {
   display: grid;
-  grid-template-columns: minmax(15rem, 25rem) minmax(16rem, 20rem);
-  column-gap: var(--post-gap);
-  padding-top: calc(var(--post-gap) / 4);
-  padding-bottom: calc(var(--post-gap) / 4);
+  grid-template-columns: minmax(10rem, 17rem) 1fr;
+  column-gap: calc(var(--post-gap) / 2);
+  margin-top: var(--post-gap);
+  margin-bottom: var(--post-gap);
   scroll-snap-align: center;
 
-  @media (max-width: $viewport-mobile) {
+  @media (max-width: $viewport-MOBILE) {
     grid-template-columns: unset;
     margin-bottom: var(--post-gap);
   }
 }
 
 .post-header {
-  display: none;
-  @media (min-width: $viewport-mobile) {
+  .post-title {
+    margin: 0;
+    color: hsl(var(--color-primary-hue), var(--color-accent-saturation), 25%);
+    line-height: 1;
+
+    a:hover {
+      color: var(--color-link);
+      text-decoration: none;
+    }    
+  }
+  .post-meta {
+    margin-bottom: .2rem;
+    color: hsla(var(--color-primary-hue), var(--color-accent-saturation), 20%, 0.8);
+  }
+  @media (max-width: $viewport-MOBILE) {
+    --padding: calc(var(--post-gap) / 4);
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: .2rem solid var(--color-accent);
+    width: 100%;
+    max-width: 50ch;
+    padding-top: 1rem;
+  }
+  @media (min-width: $viewport-DESKTOP) {
     display: flex;
     flex-direction: column;
     grid-column-start: 1;
     grid-column-end: 1;
-    border-right: 10px solid var(--color-accent);
-    padding: 2rem;
+    border-right: .5rem solid var(--color-accent);
+    padding: 1.5rem 1rem 1.5rem .5rem;
     text-align: right;
     background-color: hsla(var(--color-primary-hue), var(--color-accent-saturation), var(--color-accent-lightness), 0.1);
   
     .post-header-top {
       flex-grow: 1;
     }
-  
-    .post-title {
-      margin: 0;
-      color: hsl(var(--color-primary-hue), var(--color-accent-saturation), 25%);
-      line-height: 1;
-  
-      a:hover {
-        text-decoration: none;
-      }    
-    }
-  
-    .post-meta {
-      font-size: 0.8em;
-      color: hsla(var(--color-primary-hue), var(--color-accent-saturation), 20%, 0.8);
-    }
-  
-    .post-hint {
-      color: hsla(var(--color-primary-hue), var(--color-accent-saturation), 20%, 0.8);
-      font-size: 0.7rem;
-  
-      svg {
-        height: 1rem;
-        fill: hsla(var(--color-primary-hue), var(--color-accent-saturation), 20%, 0.8);
-      }
-    }
   }
 }
 
 
 .post-content {
-  @media (max-width: $viewport-mobile) {
+  @media (max-width: $viewport-MOBILE) {
     --padding: calc(var(--post-gap) / 4);
     margin-left: auto;
     margin-right: auto;
-    width: calc(100vw - var(--padding) * 2);
+    width: 100%;
     max-width: 50ch;
   }
-  @media (min-width: $viewport-mobile) {
-    columns: 16rem;
-    column-rule: 1px dashed hsla(0, 0%, 0%, .15);
+  @media (min-width: $viewport-DESKTOP) {
+    columns: 40ch;
+    column-rule: .3rem solid hsla(0, 0%, 0%, .03);
     gap: calc(var(--post-gap) / 1.5);
     grid-column-start: 2;
     grid-column-end: 2;
     max-height: calc(100vh - var(--post-gap));
-  }
 
-  .post-time {
-    color: hsl(var(--color-primary-hue), var(--color-accent-saturation), 35%);
-  }
-
-  .post-title {
-    margin-top: 0;
-    color: hsl(var(--color-primary-hue), var(--color-accent-saturation), 35%);
-    line-height: 1;
-
-    a:hover {
-      color: var(--color-link);
-      text-decoration: none;
-    }
-  }
-
-  @media (min-width: $viewport-mobile) {
-    .post-title, .post-time {
-      display: none;
+    &::after {
+      content: "";
+      display: block;
+      break-before: column;
     }
   }
   
-  p:first-child, h1 + p {
+  p:first-child {
     font-size: larger;
   }
 
@@ -110,7 +93,7 @@
     margin-bottom: .5rem;
   }
 
-  & > *:first-child, h1 + p  {
+  & > *:first-child {
     margin-top: 0;
   }
 
@@ -132,7 +115,7 @@ figure {
   background-color: var(--color-greyBg);
   box-shadow: 0 3px 0px 0px var(--color-greyBgDark);
 
-  @media (min-width: $viewport-mobile) {
+  @media (min-width: $viewport-DESKTOP) {
     &.portrait {
       margin-left: 2rem;
       margin-right: 2rem;
