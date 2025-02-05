@@ -112,6 +112,7 @@ figure {
   border-radius: var(--border-radius);
   max-width: 100vw;
   overflow: hidden;
+  padding: .5rem;
   background-color: var(--color-greyBg);
   box-shadow: 0 3px 0px 0px var(--color-greyBgDark);
 
@@ -124,14 +125,14 @@ figure {
 
   figcaption {
     font-size: 0.85em;
-    padding: .5rem 1rem;
+    padding: .5rem 0 0 0;
   }
 
   img {
-    object-fit: cover;
+    object-fit: contain;
     max-width: 100%;
     height: 100%;
-    max-height: clamp(40vh,68vh,40rem);
+    max-height: clamp(40vh,50vh,40rem);
     background-color: var(--color-greyBg);
   }
 }

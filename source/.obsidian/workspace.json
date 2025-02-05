@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "78b672057d151d9e",
+        "id": "2a2b5f3c052ba87b",
         "type": "tabs",
         "children": [
           {
-            "id": "2d9ee68c1aa9b2a9",
+            "id": "d2e200f99366af8b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/make time.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -38,8 +36,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +55,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,11 +65,12 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/make time.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +97,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -103,10 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/make time.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -116,8 +122,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -126,8 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/make time.md"
-              }
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ]
@@ -147,11 +161,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "464dc7c133150517",
+  "active": "d2e200f99366af8b",
   "lastOpenFiles": [
+    "_posts/leaving-x.md",
+    "_drafts/dull-landscape.md",
+    "_drafts/dull-landscape/S2_20241103_0062.avif",
+    "_drafts/dull-landscape/S2_20241103_0044.avif",
+    "_posts/portraits.md",
     "_posts/meaning.md",
     "_posts/make time.md",
-    "_posts/portraits.md",
     "_posts/portraits/portrait.avif",
     "_posts/portraits",
     "make time.md",
@@ -174,8 +192,6 @@
     "foo copy 9.md",
     "foo copy 8.md",
     "foo copy 7.md",
-    "foo copy 6.md",
-    "foo copy 5.md",
-    "foo copy 4.md"
+    "foo copy 6.md"
   ]
 }

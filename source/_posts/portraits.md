@@ -16,7 +16,9 @@ The question came from a skater whom I took some action photos some minutes befo
 
 But this time it was more than just simple snapshot. He wanted to have a portrait with the skatepark in the background. So we walked back to that place. In the mean time, though I had some time to think about the scene that I wanted to make.
 
-**Taking the time to think what would be a good scene really made the difference.** By the time I started shooting for the portrait, I already knew what kind of picture I was going for. The result was a satisfying picture and a changed perspective on that day. ❦
+**Taking the time to think what would be a good scene really made the difference.** By the time I started shooting for the portrait, I already knew what kind of picture I was going for. The result was a satisfying picture and a changed perspective on that day.
+
+❦
 
 <figure class="portrait">
     {% asset_img portrait.avif 666 1000 A portrait of a skater in a skate park %}

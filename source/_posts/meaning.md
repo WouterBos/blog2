@@ -55,4 +55,6 @@ There's a cool practice to hone your sense of composition that I've never done m
 
 ## Review later
 
-You know that feeling when you encounter an old, discarded photo you took and see it in a totally different light? I don't do this often, but while reviewing old photos, you can start to appreciate photos you didn't do before. Also this can definitely train the eye for composition. And of course, regularly looking at work of other photographers that you look up to will greatly improve your feeling for what is a good photo as well. ❦
+You know that feeling when you encounter an old, discarded photo you took and see it in a totally different light? I don't do this often, but while reviewing old photos, you can start to appreciate photos you didn't do before. Also this can definitely train the eye for composition. And of course, regularly looking at work of other photographers that you look up to will greatly improve your feeling for what is a good photo as well.
+
+❦

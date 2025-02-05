@@ -42,4 +42,6 @@ This year I skipped some events that I normally always attend like the yearly fa
 
 Having 1500+ followers on social networks is great but should not become a boring responsibility. At some point I published a photo every day and at some point that schedule became a burden at moments that I have nothing good to publish. To maintain continuity, I switched to four times in a week. That worked better for me and it also forces me to only publish the good photos at moments I do have enough publishing material. By publishing less, the quality of the published material went up.
 
-In the end, having no time for photos has nothing to do with photography but about life and what choices you're willing to make. Although I really like to document the world around me, photography is not a career path for me so I prefer to stick to a sustainable pace. ❦
+In the end, having no time for photos has nothing to do with photography but about life and what choices you're willing to make. Although I really like to document the world around me, photography is not a career path for me so I prefer to stick to a sustainable pace.
+
+❦
