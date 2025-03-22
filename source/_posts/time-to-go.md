@@ -13,7 +13,7 @@ As always, I start preparing my cameras. I find it a good activity to transition
 Even though the bingo was a happy occasion, it was also a quiet one. People need to hear the numbers being announced. And even when this didn't happen because the jury needed to check the the bingo card of a winner, there wasn't much sound. In contrast with other activities like carnival, **the clicking of my camera was noticeable**.
 
 <figure class="portrait">
-    {% asset_img 20250313_0267.avif 1331 2000 Woman keeping an eye on the photographer. %}
+    {% asset_img 20250313_0267.avif 266 400 Woman keeping an eye on the photographer. %}
     <figcaption>Slightly distracted.</figcaption>
 </figure>
 
@@ -22,7 +22,7 @@ So I quickly switched to telephoto lenses to take pictures of people without get
 So got up the stairs and took pictures from a high angle. But even then, people at some point looked up to see what I was doing.
 
 <figure>
-    {% asset_img 20250313_0223.avif 1293 2000 Woman looking up to the photographer above. %}
+    {% asset_img 20250313_0223.avif 400 258 Woman looking up to the photographer above. %}
     <figcaption>"I know you're there!"</figcaption>
 </figure>
 
