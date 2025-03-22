@@ -11,10 +11,14 @@
             "id": "d2e200f99366af8b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_posts/time-to-go.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "time-to-go"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "1",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,13 +167,19 @@
   },
   "active": "d2e200f99366af8b",
   "lastOpenFiles": [
+    "_posts/portraits.md",
+    "_posts/time-to-go/20250313_0223.avif",
+    "_posts/time-to-go/20250313_0267.avif",
+    "_posts/time-to-go",
+    "_drafts/time-to-go.md",
+    "_posts/time-to-go.md",
+    "_posts/meaning.md",
+    "_posts/make time.md",
     "_posts/leaving-x.md",
+    "Foto.md",
     "_drafts/dull-landscape.md",
     "_drafts/dull-landscape/S2_20241103_0062.avif",
     "_drafts/dull-landscape/S2_20241103_0044.avif",
-    "_posts/portraits.md",
-    "_posts/meaning.md",
-    "_posts/make time.md",
     "_posts/portraits/portrait.avif",
     "_posts/portraits",
     "make time.md",
@@ -188,10 +198,6 @@
     "meaning copy.md",
     "foo copy 12.md",
     "foo copy 11.md",
-    "foo copy 10.md",
-    "foo copy 9.md",
-    "foo copy 8.md",
-    "foo copy 7.md",
-    "foo copy 6.md"
+    "foo copy 10.md"
   ]
 }

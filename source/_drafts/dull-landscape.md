@@ -7,7 +7,6 @@ id:     dull-landscape
 
 
 
-❦
 
 Outline:
 - 

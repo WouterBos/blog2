@@ -24,6 +24,7 @@
     margin: 0;
     color: hsl(var(--color-primary-hue), var(--color-accent-saturation), 25%);
     line-height: 1;
+    text-wrap: balance;
 
     a:hover {
       color: var(--color-link);
@@ -45,15 +46,24 @@
     padding-top: 1rem;
   }
   @media (min-width: $viewport-DESKTOP) {
+    --bg-size: 6px;
+    --bg-color1: hsla(var(--color-primary-hue), var(--color-accent-saturation), 90%, 1);
+    --bg-color2: hsla(var(--color-primary-hue), var(--color-accent-saturation), 95%, 1);
+
     display: flex;
     flex-direction: column;
     grid-column-start: 1;
     grid-column-end: 1;
-    border-right: .5rem solid var(--color-accent);
+    border-right: .3rem solid var(--color-accent);
+    border-radius: 0 .3rem .3rem 0;
     padding: 1.5rem 1rem 1.5rem .5rem;
     text-align: right;
-    background-color: hsla(var(--color-primary-hue), var(--color-accent-saturation), var(--color-accent-lightness), 0.1);
-  
+    
+    background:
+      conic-gradient(at 60% 60%,var(--bg-color1) 75%,#0000 0) 0 0/calc(5*var(--bg-size)/2) calc(5*var(--bg-size)/2),
+      repeating-conic-gradient(var(--bg-color1) 0 25%,#0000 0 50%) 0 0/calc(5*var(--bg-size)) calc(5*var(--bg-size)),
+      repeating-conic-gradient(var(--bg-color2) 0 25%,var(--bg-color1) 0 50%) 0 0/var(--bg-size) var(--bg-size); 
+    
     .post-header-top {
       flex-grow: 1;
     }
@@ -70,18 +80,23 @@
     max-width: 50ch;
   }
   @media (min-width: $viewport-DESKTOP) {
-    columns: 40ch;
-    column-rule: .3rem solid hsla(0, 0%, 0%, .03);
-    gap: calc(var(--post-gap) / 1.5);
     grid-column-start: 2;
     grid-column-end: 2;
-    max-height: calc(100vh - var(--post-gap));
+    width: fit-content;
+    
+    .columns {
+      columns: 34ch;
+      gap: calc(var(--post-gap) / 2);
+      max-height: calc(100vh - var(--post-gap));
 
-    &::after {
-      content: "";
-      display: block;
-      break-before: column;
+      &::after {
+        content: "❦";
+        display: block;
+        margin-top: 1em;
+        height: calc(100vh - var(--post-gap));
+      }
     }
+
   }
   
   p:first-child {
@@ -93,7 +108,7 @@
     margin-bottom: .5rem;
   }
 
-  & > *:first-child {
+  .columns > *:first-child {
     margin-top: 0;
   }
 

@@ -37,25 +37,27 @@
   </header>
 
   <div class="post-content">
-    <% if (is_home()) { %>
-    <% var excerpt = ""; %>
-    <% if (post.description) { %>
-    <% excerpt = '<p>' + post.description + '</p>'; %>
-    <% } else if (post.excerpt) { %>
-    <% excerpt = post.excerpt; %>
-    <% } %>
+    <div class="columns">
+      <% if (is_home()) { %>
+      <% var excerpt = ""; %>
+      <% if (post.description) { %>
+      <% excerpt = '<p>' + post.description + '</p>'; %>
+      <% } else if (post.excerpt) { %>
+      <% excerpt = post.excerpt; %>
+      <% } %>
 
-    <% if (excerpt) { %>
-    <%- excerpt %>
-    <div class="read-more">
-      <a href="<%= url_for(post.path) %>" class="read-more-link"><%- __('posts.readmore') %></a>
+      <% if (excerpt) { %>
+      <%- excerpt %>
+      <div class="read-more">
+        <a href="<%= url_for(post.path) %>" class="read-more-link"><%- __('posts.readmore') %></a>
+      </div>
+      <% } else { %>
+      <%- post.content %>
+      <% } %>
+      <% } else { %>
+      <%- post.content %>
+      <% } %>
     </div>
-    <% } else { %>
-    <%- post.content %>
-    <% } %>
-    <% } else { %>
-    <%- post.content %>
-    <% } %>
   </div>
 </article>
 

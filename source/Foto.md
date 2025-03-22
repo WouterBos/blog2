@@ -1,0 +1,2 @@
+- Sfeerfoto's. Laat zien dat het een workshop is en blije gezichten.
+- Foto van opening door de wethouder. Een foto van wethouder zsm voor socials.
