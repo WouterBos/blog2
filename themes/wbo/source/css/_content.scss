@@ -1,5 +1,5 @@
 .content {
-  @media (max-width: $viewport-MOBILE) {
+  @media (width <= $viewport-MOBILE) {
     padding-left: 1rem;
     padding-right: 1rem;
   }

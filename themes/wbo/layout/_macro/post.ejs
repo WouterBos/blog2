@@ -1,39 +1,35 @@
 <article class="post">
+  <a name="post_<%= post.id %>"></a>
   <header class="post-header">
-    <a name="post_<%= post.id %>"></a>
-    <div class="post-header-top">
-      <div class="post-meta">
-        <% if (post.date) { %>
-        <span class="post-time">
-          <%- full_date(post.date, 'YYYY-MM-DD') %>
-        </span>
-        <% } %>
-        <% if (post.author) { %>
-        <span class="post-author">
-          / <%= post.author %>
-        </span>
-        <% } %>
-        <% if (post.categories && post.categories.length) { %>
-        <span class="post-category">
-          <% post.categories.forEach(function(category) { %>
-          <a href="<%= url_for(category.path) %>"><%= category.name %></a>
-          <% }); %>
-        </span>
-        <% } %>
-      </div>
-
-      <h1 class="post-title">
-        <% if (is_home()) { %>
-        <a class="post-link" href="<%- url_for(post.path) %>"><%= post.title %></a>
-        <% } else { %>
-        <%= post.title %>
-        <% } %>
-      </h1>
-
-      <%- partial("../_partial/_post/toc.ejs") %>
+    <div class="post-meta">
+      <% if (post.date) { %>
+      <span class="post-time">
+        <%- full_date(post.date, 'YYYY-MM-DD') %>
+      </span>
+      <% } %>
+      <% if (post.author) { %>
+      <span class="post-author">
+        / <%= post.author %>
+      </span>
+      <% } %>
+      <% if (post.categories && post.categories.length) { %>
+      <span class="post-category">
+        <% post.categories.forEach(function(category) { %>
+        <a href="<%= url_for(category.path) %>"><%= category.name %></a>
+        <% }); %>
+      </span>
+      <% } %>
     </div>
 
-    <div class="post-header-bottom"></div>
+    <h1 class="post-title">
+      <% if (is_home()) { %>
+      <a class="post-link" href="<%- url_for(post.path) %>"><%= post.title %></a>
+      <% } else { %>
+      <%= post.title %>
+      <% } %>
+    </h1>
+
+    <%- partial("../_partial/_post/toc.ejs") %>
   </header>
 
   <div class="post-content">

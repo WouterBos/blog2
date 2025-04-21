@@ -1,7 +1,7 @@
 .post-footer {
   text-align: center;
 
-  @media (min-width: $viewport-DESKTOP) {
+  @media (width >= $viewport-DESKTOP) {
     scroll-snap-align: center;
   }
 }
