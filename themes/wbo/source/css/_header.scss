@@ -17,7 +17,9 @@
 
     a:hover {
       color: var(--color-link);
-      text-decoration: none;
+      text-decoration-thickness: .02em;
+      text-decoration-color: var(--color-link-underline);
+      text-underline-offset: 0.1em;
     }
   
     @media (width <= $viewport-MOBILE) {

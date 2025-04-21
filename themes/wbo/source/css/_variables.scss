@@ -10,6 +10,7 @@ $viewport-DESKTOP: $viewport-MOBILE + 1px;
     --color-text: #333;
     --color-header: #555;
     --color-link: #6969da;
+    --color-link-underline: oklch(from var(--color-link) l c h / 40%);
 
     --color-primary-hue: 60.92deg;
 
