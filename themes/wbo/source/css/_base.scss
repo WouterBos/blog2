@@ -8,7 +8,7 @@
 html {
   cursor: default;
   font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
-  font-size: clamp(1rem, 1.4vmax, 1.4rem);
+  font-size: clamp(1.3rem, 1.4vmax, 1.6rem);
   color: var(--color-text);
 
   @media (width >= $viewport-DESKTOP) {
