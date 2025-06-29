@@ -8,6 +8,7 @@ $viewport-DESKTOP: $viewport-MOBILE + 1px;
     --border-radius: 10px;
 
     --color-text: #333;
+    --color-text-light: #666;
     --color-header: #555;
     --color-link: #6969da;
     --color-link-underline: oklch(from var(--color-link) l c h / 40%);

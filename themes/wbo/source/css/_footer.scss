@@ -7,6 +7,20 @@
 }
 
 .footer {
+  line-height: 1.5;
+  margin-top: 10rem;
+  padding-left: 1rem;
+  color: var(--color-text-light);
+  font-size: 0.8rem;
+
+  a {
+    color: inherit;
+
+    &:hover {
+    color: var(--color-text);
+    }
+  }
+
   @media (width >= $viewport-DESKTOP) {
     scroll-snap-align: center;
   }
