@@ -8,6 +8,7 @@
 .post {
   display: grid;
   grid-template-columns: auto 1fr;
+  position: relative;
   column-gap: calc(var(--post-gap) / 2);
   scroll-snap-align: center;
   margin-top: var(--post-gap);
@@ -20,6 +21,12 @@
 }
 
 .post-header {
+  position: sticky;
+  z-index: 1;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 2rem 0 1rem 0 #fff;
+
   .post-title {
     margin: 0;
     color: hsl(var(--color-primary-hue), var(--color-accent-saturation), 25%);
@@ -85,9 +92,10 @@
     width: fit-content;
 
     .columns {
-      columns: 34ch;
+      columns: 1;
       gap: calc(var(--post-gap) / 2);
       max-height: calc(100vh - var(--post-gap));
+      max-width: 35ch;
 
       &::after {
         content: "❦";
@@ -124,7 +132,7 @@
 }
 
 figure {
-  transform: perspective(10rem) rotateX(2deg) translateY(-3%);
+  transform: perspective(15rem) rotateX(1deg) translateY(-3%);
   transform-origin: center;
   display: flex;
   flex-direction: column;
