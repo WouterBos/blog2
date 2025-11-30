@@ -15,8 +15,8 @@ $viewport-DESKTOP: $viewport-MOBILE + 1px;
 
     --color-primary-hue: 60.92deg;
 
-    --color-head-saturation: 10%;
-    --color-head-lightness: 70%;
+    --color-head-saturation: 25%;
+    --color-head-lightness: 47%;
     --color-head: hsl(var(--color-primary-hue), var(--color-head-saturation), var(--color-head-lightness));
 
     --color-greyBg-saturation: 5%;
