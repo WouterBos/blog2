@@ -1,0 +1,18 @@
+<% if (page.posts) { %>
+<nav class="list-articles">
+  <h2>Articles:</h2>
+  <ul>
+    <% page.posts.forEach(function(post, i) { %>
+    <li>
+      <a href="<%= path %>#post_<%= post.id %>" class="archive-post-link">
+        <%= post.title %>
+      </a>
+    </li>
+    <% }) %>
+  </ul>
+</nav>
+<% } %>
+
+<div class="nav-hint">
+    Navigate with <span class="key">↓</span> and <span class="key">↑</span> keys
+</div>

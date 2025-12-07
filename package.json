@@ -5,7 +5,7 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
-    "start": "hexo server --draft",
+    "start": "hexo server",
     "test:a11y": "axe localhost:4000/photography/"
   },
   "hexo": {

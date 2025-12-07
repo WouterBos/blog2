@@ -1,5 +1,5 @@
 rss: default
-version: 7
+version: 8
 mode: default # default | archives
 toc: false
 
