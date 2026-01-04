@@ -93,7 +93,7 @@
     width: fit-content;
 
     .columns {
-      columns: 1;
+      columns: 35ch;
       gap: calc(var(--post-gap) / 2);
       max-height: calc(100vh - var(--post-gap));
       max-width: 35ch;

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "build": "hexo generate && cp ./source/.htaccess ./public/",
+    "deploy": "node deploy.cjs",
     "clean": "hexo clean",
     "start": "hexo server",
     "test:a11y": "axe localhost:4000/photography/"
@@ -26,6 +27,7 @@
     "hexo-theme-landscape": "^1.0.0"
   },
   "devDependencies": {
+    "ftp-deploy": "^2.4.7",
     "hexo-feed": "^1.1.2"
   }
 }

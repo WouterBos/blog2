@@ -1,7 +1,7 @@
 ---
 title: Leaving X?
 date: 2025/02/05
-id: dull-landscape
+id: leaving-x
 ---
 So I'm thinking about leaving X.
 
