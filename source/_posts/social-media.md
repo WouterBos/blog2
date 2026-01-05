@@ -10,7 +10,7 @@ I have always been in love with computers. I've been using various sources of so
 
 But there is also a life outside social media. It's called "real life". Ideally, these two world could go together hand in hand. After all, I only take pictures in my municipality. But although there was some overlap, it didn't work out for me. So little time, so much to follow.
 
-I have been good in making the best out of it. Until a few years ago when it became apparent that I didn't have the focus that I used to have. At some point I had to do something. Little by littleI retreated from my phone. I replaced colourful icons with dull text, I furiously curated which app can throw which notifications at me, I tried apps to control how much time I spent on other apps. Although all these things helped a bit, **there was only one way to reduce my phone use: delete all social media from my phone.**
+I have been good in making the best out of it. Until a few years ago when it became apparent that I didn't have the focus that I used to have. At some point I had to do something. Little by little I retreated from my phone. I replaced colourful icons with dull text, I furiously curated which app can throw which notifications at me, I tried apps to control how much time I spent on other apps. Although all these things helped a bit, **there was only one way to reduce my phone use: delete all social media from my phone.**
 
 <figure class="portrait">
     {% asset_img jeremy.jpg 736 736 Jeremy, a character in the Yellow Submarine.  %}

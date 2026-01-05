@@ -8,7 +8,7 @@ ftp.on("uploading", function (data) {
 
 const config = {
   ...credentials,
-  deleteRemote: true,
+  deleteRemote: false,
   include: ["*", ".*"],
   localRoot: __dirname + "/public/",
   remoteRoot: "/photography/",
