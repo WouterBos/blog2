@@ -6,6 +6,8 @@
 }
 
 html {
+  container-type: scroll-state;
+  container-name: scroller;
   cursor: default;
   margin: 0;
   font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;

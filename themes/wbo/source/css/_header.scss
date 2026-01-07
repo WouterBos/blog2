@@ -6,24 +6,55 @@
     color: var(--color-head);
     font-size: 8vw;
     line-height: 1;
-    transform: translate(0,-32%);
+    transform: translate(0, -32%);
     text-align: center;
 
     a {
       display: inline-block;
       transform: perspective(10rem) rotateX(-3deg);
       transform-origin: center;
+      text-decoration-thickness: 0.1em;
+      text-decoration-line: underline;
+      text-underline-offset: 0.1em;
+      text-decoration-color: var(--color-head);
     }
 
-    a:hover {
-      color: var(--color-link);
-      text-decoration-thickness: .02em;
-      text-decoration-color: var(--color-link-underline);
-      text-underline-offset: 0.1em;
-    }
-  
     @media (width <= $viewport-MOBILE) {
       font-size: 10vw;
+    }
+  }
+
+  @supports (container-type: scroll-state) {
+    height: 8vw;
+  
+    h1 {
+      position: fixed;
+      z-index: 10;
+      left: 50%;
+      top: 0;
+      transform: translate(-50%, -32%);
+      white-space: nowrap;
+      background: var(--color-background);
+      transition: all 0.2s ease-out;
+    }
+  }
+
+  @media (width >= $viewport-DESKTOP) {
+    @container scroller scroll-state(scrollable: top) {
+      h1 {
+        position: fixed;
+        z-index: 10;
+        left: 0.5rem;
+        top: 0;
+        transform: translate(0, -20%);
+        font-size: 1.2rem;
+        color: rgb(from var(--color-head) r g b / 0.5);
+        background: rgb(from var(--color-background) r g b / 0.9);
+
+        a {
+          text-decoration-color: rgb(from var(--color-head) r g b / 0.5);
+        }
+      }
     }
   }
 }
